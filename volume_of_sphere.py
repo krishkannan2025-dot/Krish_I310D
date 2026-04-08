@@ -3,10 +3,10 @@ def calculate_volume_of_circle(radius):
     volume = (4/3) * pi * radius * radius * radius
     return volume
 
-radius1 = 30
+radius1 = 20
 volume1 = calculate_volume_of_circle(radius1)
 print(f"The volume of a sphere with radius {radius1} is: {volume1}")
 
-radius2 = 40
+radius2 = 10
 volume2 = calculate_volume_of_circle(radius2)
 print(f"The volume of a sphere with radius {radius2} is: {volume2}")
